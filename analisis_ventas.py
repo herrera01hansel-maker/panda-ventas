@@ -87,3 +87,4 @@ print(df.groupby(['region', 'categoria'])['ingreso_total'].mean())
 
 # 13. Variable categórica con pd.cut y tabla cruzada
 df['rango_precio'] = pd.cut(df['precio_unitario'], bins=[0, 1000, 3000, 5000], labels=['Bajo', 'Medio', 'Alto'])
+
