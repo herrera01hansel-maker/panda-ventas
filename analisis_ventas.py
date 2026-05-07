@@ -61,6 +61,7 @@ print(df[df['cantidad'] > 5])
 # 5. Selección con .loc
 print(df.loc[0:4, ['producto', 'vendedor']])
 
+
 # 6. Selección con .iloc
 print(df.iloc[0:3, 2:4])
 
