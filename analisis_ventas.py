@@ -31,6 +31,7 @@ df = pd.DataFrame({
     'costo': [random.randint(50, 3000) for _ in range(n)],
     'vendedor': [random.choice(vendedores) for _ in range(n)],
     'region': [random.choice(regiones) for _ in range(n)],
+  
     'cliente_tipo': [random.choice(clientes_tipo) for _ in range(n)],
     'descuento': [round(random.uniform(0.0, 0.3), 2) for _ in range(n)],
     'metodo_pago': [random.choice(metodos_pago) for _ in range(n)]
