@@ -17,6 +17,7 @@ regiones = ['Norte', 'Sur', 'Este', 'Oeste', 'Centro']
 clientes_tipo = ['Individual', 'Empresa', 'Gobierno', 'Educación']
 metodos_pago = ['Tarjeta', 'Transferencia', 'Efectivo', 'Crédito', 'PayPal']
 
+
 fecha_inicio = datetime.now() - timedelta(days=365)
 fechas = [fecha_inicio + timedelta(days=random.randint(0, 365)) for _ in range(n)]
 
