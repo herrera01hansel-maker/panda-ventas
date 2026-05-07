@@ -3,6 +3,7 @@ import random
 from datetime import datetime, timedelta
 import numpy as np
 
+
 # ==========================================
 # GENERACIÓN DEL DATASET 5 (VENTAS)
 # ==========================================
