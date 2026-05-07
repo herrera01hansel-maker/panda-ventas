@@ -40,6 +40,7 @@ df = pd.DataFrame({
 # Creamos la columna necesaria para los siguientes puntos
 df['ingreso_total'] = df['cantidad'] * df['precio_unitario']
 
+
 # ==========================================
 # RESOLUCIÓN DE LA EVALUACIÓN (PUNTOS 1 AL 20)
 # ==========================================
